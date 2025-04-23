@@ -6,6 +6,7 @@
         age: 25,
         greet: function() {
         console.log("Hello, my name is Joynul Abedin ");
+        console.log("I am " + this.age + " years old");
             }   
         }
 
