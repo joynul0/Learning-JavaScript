@@ -13,3 +13,16 @@
     Joy.greet(); 
     console.log(Joy.name);
     console.log(Joy["age"]);
+
+
+    const button = document.querySelector('.btn');
+    const body = document.querySelector('body');
+
+    btn.addEventListener('click', () => {
+        btn.style.backgroundColor = 'Orange';
+        btn.style.padding = '20px';
+        
+        body.style.display = 'grid';
+        body.style.placeItems = 'center';
+        body.style.height = '0';
+    })
