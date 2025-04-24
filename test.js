@@ -15,8 +15,7 @@
     console.log(Joy["age"]);
 
 
-    const button = document.querySelector('.btn');
-    const body = document.querySelector('body');
+   
 
     btn.addEventListener('click', () => {
         btn.style.backgroundColor = 'Orange';
@@ -26,3 +25,7 @@
         body.style.placeItems = 'center';
         body.style.height = '0';
     })
+
+    // Number Method
+
+    console.log(Math.round(Math.random() *10));
